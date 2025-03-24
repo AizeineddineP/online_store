@@ -1,0 +1,20 @@
+Index: src/.env
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/.env b/src/.env
+new file mode 100644
+--- /dev/null	(date 1742761396482)
++++ b/src/.env	(date 1742761396482)
+@@ -0,0 +1,10 @@
++SECRET_KEY=django-insecure-_1x&w2wx)k1+imsj^gf!zycqol_(nl+dn@ya9@1se_v*-o+62=
++DEBUG= True
++ALLOWED_HOSTS= [localhost, 127.0.0.1, testserver, test]
++
++#postgres database settings
++DB_NAME="online_store_django"
++DB_USER="alex"
++DB_PASSWORD="1234"
++DB_HOST="localhost"
++DB_PORT=5432
